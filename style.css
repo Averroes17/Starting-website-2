@@ -1,11 +1,11 @@
-body {
+body {navbar
     margin: 0;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
- 
+    max-width: 1400px;
 }
 
 button {
@@ -814,6 +814,22 @@ h4 {
     background-image: url("img/image-de-presentationt.webp");
 }
 
+.col-sm-12{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.text-center{
+    color: white !important;
+}
+
+li {
+    padding-right: 20px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -856,7 +872,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    body,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
@@ -879,7 +895,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
+    body{
         overflow-x: hidden;
         position: relative;
     }
