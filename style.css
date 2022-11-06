@@ -1,11 +1,11 @@
-body {navbar
-    margin: 0;
-    padding: 0;
+body {
+    margin:5px;
+    padding: 0x;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    max-width: 1400px;
+    -moz-osx-font-soothing: grayscale;
+    max-width: 1500px;
 }
 
 button {
@@ -822,12 +822,9 @@ h4 {
     color: white;
 }
 
-.text-center{
-    color: white !important;
-}
 
 li {
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 @media (max-width: 1024px) {
