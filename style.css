@@ -495,7 +495,8 @@ body {
     
     .btn-atomic-tangerine {
     background:#F3976C;
-    color:rgb(18, 17, 17)!important
+    color:rgb(18, 17, 17)!important;
+    margin-bottom: 15px;
     }
     
     .btn-atomic-tangerine:hover {
@@ -591,6 +592,9 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+    }
+    p.text-center.b-white {
+        color: white !important;
     }
 
     @media (min-width: 768px) {
@@ -858,6 +862,7 @@ h2{
 
     iframe {
         margin: 0;
+        width: 350px;
     }
 }
     @media (max-width: 400px) {
